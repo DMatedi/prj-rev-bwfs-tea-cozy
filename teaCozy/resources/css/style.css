@@ -1,0 +1,173 @@
+body {
+  font-family: trebuchet;
+  font-size: 20px;
+  text-align: center;
+  background-color: black;
+}
+
+/* Header */
+
+.header {
+  display: inline-flex;
+  width: 100%;
+  background-color: black;
+  height: 100px;
+  border-bottom: 1px solid white;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.header img {
+  padding-left: 50px;
+}
+
+.header span {
+  padding-right: 50px;
+
+}
+
+                    /* a:link {
+                      text-decoration: none;
+                        color: white;
+                    } */
+
+
+/* CONTENT */
+
+.content {
+  margin: auto;
+  width: 1200px;
+  height: auto;
+  padding-top: 90px;
+}
+
+/* first section */
+
+
+.first {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  background-size: cover;
+  margin-bottom: 0;
+}
+
+.commom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.first-container {
+  display: flex;
+  height: 700px;
+  width: 100%;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.first-txt {
+  display: block;
+  background-color: black;
+  width: 100%;
+  color: white;
+  opacity: 0.8;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+/* second section */
+
+
+.second {
+  width: 1000px;
+  margin: auto;
+  padding-top: 40px;
+  color: white;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.commom img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 0;
+  padding-left: 30px;
+}
+
+
+/*  Location */
+
+
+.location {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: top;
+  margin-top: 50px;
+}
+
+.location h1 {
+  padding-top: 50px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 3px 3px black;
+}
+
+.address {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: white;
+  align-items: center;
+}
+
+.donwtown {
+    background-color: black;
+    height: 230px;
+    width: 300px;
+}
+
+.bayside {
+    background-color: black;
+    height: 230px;
+    width: 300px;
+}
+
+.oakdale {
+    background-color: black;
+    height: 230px;
+    width: 300px;
+}
+
+/* contact */
+
+.contact {
+  color: white;
+  padding-top: 20px;
+}
+
+/* footer */
+
+footer {
+  padding: 20px;
+  text-align: left;
+  color: white;
+  font-size: 13px
+
+}
